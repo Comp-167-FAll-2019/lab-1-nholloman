@@ -21,7 +21,19 @@ public class Contact {
         this.phoneNumber = phoneNumber;
         this.emailAddress = emailAddress;
     }
-    
+    public String getFirstName(){
+        //Scanner s = new Scanner(System.in);
+        //System.out.print("Enter: ");
+        //firstName = "nzinga";
+        
+        return firstName;
+    }
+    public String getLastName(){
+        
+        
+        return lastName;
+    }
+            
     public String toString(){
         //String str =firstName + " " + lastName + " " + phoneNumber + " " + emailAddress;
         return firstName + " " + lastName + " " + phoneNumber + " " + emailAddress;
