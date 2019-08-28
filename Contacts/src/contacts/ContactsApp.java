@@ -46,6 +46,7 @@ public class ContactsApp extends Application {
         viewContactButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
+                //Contact
                 Contact selectedContact = contacts.get(contactListView.getSelectionModel().getSelectedIndex());
                 
                 Alert alert = new Alert(AlertType.INFORMATION);
